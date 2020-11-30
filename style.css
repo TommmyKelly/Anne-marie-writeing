@@ -280,6 +280,13 @@ footer .footerContainer .icons-footer a:hover {
   .col {
     width: 100%;
   }
+  footer {
+    position: unset !important;
+    margin-top: 30px;
+  }
+  .container h1 {
+    z-index: -10;
+  }
 
   /* #check:checked ~ label #menu{
           display: none;
