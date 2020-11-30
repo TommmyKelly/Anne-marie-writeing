@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="java.js"></script> -->
+    <!-- <script src="http://kit.fontawesome.com/a076d05399.js"></script> -->
+    <title>Home-AnneMarie's Writing consultancy</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./book_pen_19702.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"></script>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars" id="menu" onclick="start()"></i>
+            <i class="fa fa-times disable" id="closemenu"></i>
+        </label>
+        <label class="logo" id="logo1"> <a href="index.html">AnneMarie's Writing Consultancy</a></label>
+        <ul class="menu">
+            <li><a  href="index.html">Home</a></li>
+            <li><a href="page2.html">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a class="active" href="">Contact</a></li>
+            <!-- <li><a href="">Feedback</a></li> -->
+        </ul>
+
+        
+       
+        <div class="icons">
+            <a href="https://www.facebook.com/annemariemaa/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </div>
+       
+
+    </nav>
+    <main>
+        
+            <div class="container flex-column col-8">
+                <h1 style="text-align: center; margin: 35px 0 20px 0 !important;">Contact me</h1>
+                <form style="z-index: -100;" target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                            </div>
+                            <div class="col">
+                                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                </form>
+            </div>
+            
+        
+        <div style="margin-top: 40px;" class="fb-like" data-href="https://www.facebook.com/annemariemaa/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+    
+        <footer style="position: fixed; bottom: 0;">
+            <div class="footerContainer">
+                <div class="footbox1">
+                    &copy; copywrite 2020
+                </div>
+                <div class="footbox2 icons-footer">
+                    <a href="https://www.facebook.com/annemariemaa/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                    <a href="mailto:someone@example.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </main>   
+        </footer>
+           
+ 
+
+    <script src="java.js"></script>
+</body>
+</html>
